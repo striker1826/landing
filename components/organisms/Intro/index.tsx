@@ -100,13 +100,17 @@ const Intro = () => {
           className="sm:hidden mt-[47px] mr-[68px] flex flex-col items-start justify-center gap-[47px]"
         >
           <div className="relative w-full">
-            <Image
-              className="relative z-10"
-              src={"/images/intro/course.png"}
-              width={190}
-              height={190}
-              alt="course image"
-            />
+            <div className="relative z-10">
+              <Image
+                src={"/images/intro/course.png"}
+                width={190}
+                height={190}
+                alt="course image"
+              />
+              <p className="absolute top-1/2 left-1/2  text-center -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[#fff] text-[24px] font-[700] leading-[128%] tracking-[-0.72px]">
+                드라이브 코스
+              </p>
+            </div>
 
             <Image
               className="absolute top-[95px] left-[130px] z-0"
@@ -115,14 +119,22 @@ const Intro = () => {
               height={167}
               alt="place image"
             />
+            <p className="absolute top-[170px] left-[190px] z-30 whitespace-nowrap text-[#fff] text-[24px] font-[700] leading-[128%] tracking-[-0.72px]">
+              명소
+            </p>
           </div>
 
-          <Image
-            src={"/images/intro/latte.png"}
-            width={167}
-            height={167}
-            alt="latte image"
-          />
+          <div className="relative z-10">
+            <Image
+              src={"/images/intro/latte.png"}
+              width={167}
+              height={167}
+              alt="latte image"
+            />
+            <p className="absolute top-1/2 left-1/2  text-center -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[#fff] text-[24px] font-[700] leading-[128%] tracking-[-0.72px]">
+              맛집
+            </p>
+          </div>
         </motion.div>
         {/* pc */}
         <motion.div
