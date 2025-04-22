@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="py-[44px] pl-[32px] bg-[#131313] flex flex-col sm:flex-row sm:justify-between sm:items-center">
+    <div className="py-[44px] pl-[32px] bg-[#131313] sm:pl-[168px] sm:pr-[168px] flex flex-col sm:flex-row sm:justify-between sm:items-start">
       <div className="flex flex-col gap-[16px]">
         <p className="text-[#fff] text-[16px] font-[700] leading-[128%] tracking-[-0.48px]">
           요즘피플
@@ -14,19 +14,22 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-[36px] flex flex-col gap-[16px]">
-        <FooterParagraph text="개인(위치)정보처리방침" fontWeight="700" />
-        <FooterParagraph text="이용약관" fontWeight="700" />
-        <FooterParagraph text="위치기반서비스이용약관" fontWeight="700" />
-      </div>
+      {/* mobile */}
+      <div className="flex flex-col items-start justify-center sm:items-start">
+        <div className="mt-[36px] sm:mt-[0px] flex flex-col sm:flex-row gap-[16px] sm:gap-[48px]">
+          <FooterParagraph text="개인(위치)정보처리방침" fontWeight="700" />
+          <FooterParagraph text="이용약관" fontWeight="700" />
+          <FooterParagraph text="위치기반서비스이용약관" fontWeight="700" />
+        </div>
 
-      <Image
-        className="mt-[24px]"
-        src={"/images/footer/instagram.svg"}
-        width={40}
-        height={40}
-        alt="instagram"
-      />
+        <Image
+          className="mt-[24px]"
+          src={"/images/footer/instagram.svg"}
+          width={40}
+          height={40}
+          alt="instagram"
+        />
+      </div>
     </div>
   );
 };

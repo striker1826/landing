@@ -16,11 +16,13 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="fixed z-50  w-full flex justify-center">
+    <div
+      className={`fixed z-50 w-full flex justify-center ${
+        scrolled ? "bg-[#fff]" : "bg-transparent"
+      }`}
+    >
       <div
-        className={`w-full max-w-[1152px] px-[20px] py-[12px] flex justify-between items-center ${
-          scrolled ? "bg-[#fff]" : "bg-transparent"
-        }`}
+        className={`w-full max-w-[1152px] px-[20px] py-[12px] flex justify-between items-center`}
       >
         <Image src={"/images/logo.svg"} width={80} height={40} alt="logo" />
         <p className="text-black text-[16px] sm:text-[18px] md:text-[20px] font-[600] leading-[120%] tracking-[-0.32px]">
