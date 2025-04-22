@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeatureCoupon = () => {
   return (
-    <div className="flex flex-col py-[80px]">
+    <div className="flex bg-[#fff] flex-col py-[80px]">
       <Feature
         mainText={
           <>
@@ -12,7 +12,7 @@ const FeatureCoupon = () => {
             기프티콘과 쿠폰을 구매해요
           </>
         }
-        subText="포인트로 구매하기기"
+        subText="포인트로 구매하기"
       >
         <div className="w-full mt-[62px] sm:flex">
           {/* mobile */}

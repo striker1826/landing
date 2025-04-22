@@ -8,7 +8,7 @@ const FeatureEgg = () => {
   const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
   return (
-    <div className="flex flex-col items-center justify-center pb-[80px] sm:pb-[128px] md:pb-[176px]">
+    <div className="flex flex-col bg-[#fff] items-center justify-center pb-[80px] sm:pb-[128px] md:pb-[176px]">
       <Feature
         mainText={
           <>
