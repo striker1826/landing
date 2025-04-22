@@ -12,7 +12,7 @@ const Intro = () => {
   const [placePcImgRef, placePcImgInView] = useInViewVisibility();
 
   return (
-    <div className="pt-[60px] pb-[117px] flex flex-col items-center justify-center">
+    <div className="pt-[60px] pb-[117px] bg-[#fff] flex flex-col items-center justify-center">
       <motion.div
         ref={duckRef}
         initial={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const Intro = () => {
         <p className="text-purple text-[16px] md:text-[18px] lg:text-[20px] font-[700] leading-[128%] tracking-[-0.48px]">
           차덕이 큐레이션 해주는
         </p>
-        <p className="text-[#202020] text-[26px] sm:text-[32px] md:text-[40px] lg:text-[48px ] font-[700] leading-[136%] tracking-[-0.78px] ">
+        <p className="mt-[21px] text-[#202020] text-[26px] sm:text-[32px] md:text-[40px] lg:text-[48px ] font-[700] leading-[136%] tracking-[-0.78px] ">
           추천 장소로 떠나면
         </p>
         <div className="flex gap-[8px] items-center">
@@ -85,7 +85,7 @@ const Intro = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              보상까지
+              보상까지&nbsp;
             </span>
             쌓여요
           </p>
