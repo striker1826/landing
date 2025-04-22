@@ -1,7 +1,12 @@
+"use client";
+
 import FooterParagraph from "@/components/atoms/FooterParagraph";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
+  const router = useRouter();
+
   return (
     <div className="py-[44px] pl-[32px] bg-[#131313] sm:pl-[168px] sm:pr-[168px] flex flex-col sm:flex-row sm:justify-between sm:items-start">
       <div className="flex flex-col gap-[16px]">
@@ -23,6 +28,11 @@ const Footer = () => {
         </div>
 
         <Image
+          onClick={() =>
+            router.push(
+              "https://www.instagram.com/chaduck.official/reels/?locale=ko"
+            )
+          }
           className="mt-[24px]"
           src={"/images/footer/instagram.svg"}
           width={40}
