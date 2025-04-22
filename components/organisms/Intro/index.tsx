@@ -151,6 +151,9 @@ const Intro = () => {
               alt="course image"
               className="object-contain"
             />
+            <p className="absolute top-1/2 left-1/2  text-center -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[#fff] text-[36px] font-[700] leading-[128%] tracking-[-0.72px]">
+              드라이브 코스
+            </p>
           </div>
           <div className="relative w-[264px] h-[264px] md:w-[312px] md:h-[312px] lg:w-[406px] lg:h-[406px]">
             <Image
@@ -159,6 +162,9 @@ const Intro = () => {
               alt="place image"
               className="object-contain"
             />
+            <p className="absolute top-1/2 left-1/2  text-center -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[#fff] text-[36px] font-[700] leading-[128%] tracking-[-0.72px]">
+              명소
+            </p>
           </div>
           <div className="relative w-[264px] h-[264px] md:w-[312px] md:h-[312px] lg:w-[406px] lg:h-[406px]">
             <Image
@@ -167,6 +173,9 @@ const Intro = () => {
               alt="latte image"
               className="object-contain"
             />
+            <p className="absolute top-1/2 left-1/2  text-center -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[#fff] text-[36px] font-[700] leading-[128%] tracking-[-0.72px]">
+              맛집
+            </p>
           </div>
         </motion.div>
       </motion.div>
