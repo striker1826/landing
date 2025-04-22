@@ -48,7 +48,7 @@ const FeatureCoupon = () => {
           </div>
 
           {/* pc */}
-          <div className="hidden sm:flex justify-center items-center gap-[24px]">
+          <div className="hidden sm:w-full sm:flex sm:justify-center sm:items-center gap-[24px]">
             <Image
               src={"/images/featureCoupon/coffee.svg"}
               width={200}
