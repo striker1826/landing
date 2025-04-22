@@ -17,31 +17,31 @@ const FeatureCoupon = () => {
         <div className="w-full mt-[62px] sm:flex">
           {/* mobile */}
           <div className="sm:hidden">
-            <div className="flex justify-center items-center gap-[24px]">
+            <div className="flex justify-center items-center gap-[16px]">
               <Image
                 src={"/images/featureCoupon/coffee.svg"}
-                width={168}
-                height={168}
+                width={144}
+                height={144}
                 alt="coffee image"
               />
               <Image
                 src={"/images/featureCoupon/iceCream.svg"}
-                width={168}
-                height={168}
+                width={144}
+                height={144}
                 alt="iceCream image"
               />
             </div>
-            <div className="mt-[24px] flex justify-center items-center gap-[24px]">
+            <div className="mt-[24px] flex justify-center items-center gap-[16px]">
               <Image
                 src={"/images/featureCoupon/naverCoin.svg"}
-                width={168}
-                height={168}
+                width={144}
+                height={144}
                 alt="coffee image"
               />
               <Image
                 src={"/images/featureCoupon/chicken.svg"}
-                width={168}
-                height={168}
+                width={144}
+                height={144}
                 alt="chicken image"
               />
             </div>

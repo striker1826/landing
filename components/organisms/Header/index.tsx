@@ -4,7 +4,11 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const Header = () => {
+interface HeaderProps {
+  reverse?: boolean;
+}
+
+const Header = ({ reverse = false }: HeaderProps) => {
   const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
 
@@ -27,13 +31,23 @@ const Header = () => {
         className={`w-full max-w-[1152px] px-[20px] py-[12px] flex justify-between items-center`}
       >
         <Image
+          className="cursor-pointer"
           onClick={() => router.push("/")}
-          src={"/images/logo.svg"}
+          src={
+            reverse && !scrolled ? "/images/logo-white.svg" : "/images/logo.svg"
+          }
           width={80}
           height={40}
           alt="logo"
         />
-        <p className="text-black text-[16px] sm:text-[18px] md:text-[20px] font-[600] leading-[120%] tracking-[-0.32px]">
+        <p
+          onClick={() => router.push("/company")}
+          className={`text-[16px] sm:text-[18px] md:text-[20px] font-[600] leading-[120%] tracking-[-0.32px] cursor-pointer ${
+            reverse && scrolled && "text-black"
+          } ${reverse && !scrolled && "text-[#fff]"} ${
+            !reverse && "text-black"
+          }`}
+        >
           회사 소개
         </p>
       </div>

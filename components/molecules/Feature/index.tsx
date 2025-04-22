@@ -2,7 +2,6 @@
 
 import useInViewVisibility from "@/hooks/useInViewVisibility";
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
 
 interface FeatureProps {
   mainText: React.ReactNode;
