@@ -1,10 +1,12 @@
 "use client";
 
-import Lottie from "lottie-react";
 import landingEgg from "@/public/landing_egg.json";
 import Feature from "@/components/molecules/Feature";
+import dynamic from "next/dynamic";
 
 const FeatureEgg = () => {
+  const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
   return (
     <div className="flex flex-col items-center justify-center pb-[80px] sm:pb-[128px] md:pb-[176px]">
       <Feature
