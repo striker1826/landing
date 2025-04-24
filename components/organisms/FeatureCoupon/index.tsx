@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeatureCoupon = () => {
   return (
-    <div className="flex bg-[#fff] flex-col py-[80px]">
+    <div className="flex bg-[#fff] flex-col py-[80px] sm:py-[128px] md:py-[176px] lg:py-[200px]">
       <Feature
         mainText={
           <>
