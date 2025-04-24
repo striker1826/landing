@@ -14,7 +14,7 @@ const FeatureReward = () => {
         }
         subText="방문체크인"
       >
-        <div className="relative mt-[56px] sm:mt-[77px] w-[280px] md:w-[320px] lg:w-[360px] h-[616px] md:h-[705px] lg:h-[792px]">
+        <div className="relative mt-[56px] mr-[20px] sm:mt-[77px] w-[280px] md:w-[320px] lg:w-[360px] h-[616px] md:h-[705px] lg:h-[792px]">
           <Image
             src={"/images/featureReward/phone.png"}
             fill

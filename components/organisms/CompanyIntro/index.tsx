@@ -21,12 +21,14 @@ const CompanyIntro = () => {
         <p className="text-purple text-[16px] md:text-[20px] font-[700] leading-[120%] tracking-[-0.48px]">
           우리가 하는 일
         </p>
+        {/* mobile */}
         <p className="sm:hidden mt-[12px] text-black text-[26px] sm:text-[32px] font-[700] leading-[136%] tracking-[-0.78px]">
           새로운 자동차 여행
           <br />
           경험 제작에 집중합니다
         </p>
 
+        {/* pc */}
         <p className="hidden sm:block sm:mt-[20px] md:mt-[26px] text-black text-[26px] md:text-[40px] lg:text-[48px] font-[700] leading-[136%] tracking-[-0.78px]">
           새로운 자동차 여행
           <br />
