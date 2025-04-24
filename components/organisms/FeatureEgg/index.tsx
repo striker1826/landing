@@ -9,7 +9,7 @@ const FeatureEgg = () => {
   const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
   return (
-    <div className="flex flex-col px-[30px] bg-[#fff] items-center justify-center pb-[80px] sm:pb-[128px] md:pb-[176px]">
+    <div className="flex flex-col px-[30px] sm:px-[100px] md:px-[130px] bg-[#fff] items-center justify-center pb-[80px] sm:pb-[128px] md:pb-[176px]">
       <Feature
         mainText={
           <>
@@ -32,14 +32,14 @@ const FeatureEgg = () => {
             alt="confetti"
           />
           <Image
-            className="absolute top-[283px] left-[8px]"
+            className="absolute bottom-[60px] left-[8px] sm:bottom-[80px] md:bottom-[100px] lg:bottom-[120px]"
             src={"/images/featureEgg/leftCoin.svg"}
             width={100}
             height={100}
             alt="coin"
           />
           <Image
-            className="absolute top-[140px] right-[8px]"
+            className="absolute top-[130px] right-[8px] sm:top-[150px] md:top-[170px] lg:top-[190px]"
             src={"/images/featureEgg/rightCoin.svg"}
             width={100}
             height={100}
