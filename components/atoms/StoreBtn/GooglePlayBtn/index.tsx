@@ -18,7 +18,7 @@ const GooglePlayBtn = ({ bg }: { bg: string }) => {
         height={20}
         alt="googleplay"
       />
-      <p className="text-black text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-[600] leading-[128%] tracking-[-0.42px]">
+      <p className="text-black text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-[500] leading-[128%] tracking-[-0.42px]">
         Google Play
       </p>
     </StoreBtn>
