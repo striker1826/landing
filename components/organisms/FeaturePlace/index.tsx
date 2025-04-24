@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeaturePlace = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#F5F6F8] px-[32px] pt-[80px] pb-[56px] sm:px-[135px]">
+    <div className="flex flex-col items-center justify-center bg-[#F5F6F8] px-[32px] py-[80px] sm:py-[128px] md:py-[176px] lg:py-[200px] sm:px-[135px]">
       <Feature
         mainText={
           <>
@@ -13,7 +13,7 @@ const FeaturePlace = () => {
         }
         subText="장소 탐색에 용이하게"
       >
-        <div className="flex flex-col mt-[36px] sm:mt-[56px] md:mt-[68px] lg:mt-[70px] sm:flex-row items-center justify-center gap-[16px] sm:gap-[20px] md:gap-[32px]">
+        <div className="flex flex-col mt-[36px] sm:mt-[56px] md:mt-[68px] lg:mt-[70px] sm:flex-row items-center justify-center gap-[16px] sm:gap-[20px]">
           <div
             className="rounded-[16px] bg-[#fff] px-[28px] py-[36px] flex items-center gap-[44px]"
             style={{ boxShadow: "12px 9px 12px 0px rgba(0, 0, 0, 0.04)" }}
