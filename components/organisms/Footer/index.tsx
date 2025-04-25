@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-center sm:items-end">
+        <div className="sm:mt-[4px] flex flex-col items-start justify-center sm:items-end">
           <div className="sm:mt-[0px] flex flex-col sm:flex-row gap-[16px] sm:gap-[48px]">
             <FooterParagraph text="개인(위치)정보처리방침" fontWeight="700" />
             <FooterParagraph text="이용약관" fontWeight="700" />
