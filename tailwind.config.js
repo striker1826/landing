@@ -22,6 +22,9 @@ module.exports = {
         black: "#202020",
         purple: "#A054FF",
       },
+      fontFamily: {
+        pretendard: ["Pretendard-Regular", "sans-serif"],
+      },
     },
   },
 
