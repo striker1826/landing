@@ -16,7 +16,7 @@ const CompanyIndicators = () => {
           </>
         }
       >
-        <div className="w-full flex flex-col max-w-[1232px] gap-[16px] sm:grid sm:grid-cols-2 sm:gap-[20px]">
+        <div className="w-full sm:mt-[-42px] flex flex-col max-w-[1232px] gap-[16px] sm:grid sm:grid-cols-2 sm:gap-[20px]">
           <CompanyIndicatorBox
             titleIconPath="/images/company/indicator/medal.svg"
             title="특허권"
