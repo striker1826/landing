@@ -6,7 +6,7 @@ const CompanyPartner = () => {
   return (
     <div className="w-full bg-[#fff] px-[40px] py-[80px] sm:py-[128px] md:py-[176px] lg:py-[200px] flex flex-col items-center justify-center">
       <CompanyFeature
-        subText="함께하는 어플"
+        subText="함께하는 이들"
         mainText={
           <>
             요즘피플과 함께하는
