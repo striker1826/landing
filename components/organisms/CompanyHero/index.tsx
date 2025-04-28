@@ -1,7 +1,7 @@
 const CompanyHero = () => {
   return (
     <div
-      className={`py-[288px] sm:py-[300px] md:py-[352px] lg:py-[410px] flex justify-center items-center bg-[url('/images/company/hero/bg.svg')] sm:bg-[url('/images/company/hero/pc-bg.svg')] bg-[lightgray] bg-center bg-cover bg-no-repeat`}
+      className={`py-[288px] sm:py-[300px] md:py-[352px] lg:py-[410px] flex justify-center items-center bg-[url('/images/company/hero/bg.svg')] sm:bg-[url('/images/company/hero/pc-bg.svg')] lg:bg-[url('/images/company/hero/pc-lg-bg.svg')] bg-[lightgray] bg-center bg-cover bg-no-repeat`}
     >
       <p className="sm:hidden text-[#fff] text-center text-[32px] font-[700] leading-[136%] tracking-[-0.96px]">
         요즘 사람들이
