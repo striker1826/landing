@@ -9,7 +9,7 @@ const Footer = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-[#131313] flex justify-center items-center">
+    <div className="bg-[#131313] flex sm:justify-center sm:items-center">
       <div className="py-[44px] pl-[32px] gap-[36px] sm:gap-[104px] md:gap-[329px] lg:gap-[445px] sm:pl-[0px] sm:py-[100px] lg:py-[125px] sm:max-w-[800px] md:max-w-[1000px] lg:max-w-[1200px] flex flex-col sm:flex-row sm:justify-between sm:items-start">
         <div className="flex flex-col gap-[16px] sm:gap-[24px]">
           <p className="text-[#fff] text-[16px] sm:text-[18px] lg:text-[20px] font-[700] leading-[128%] tracking-[-0.48px]">

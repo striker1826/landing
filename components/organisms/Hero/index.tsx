@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[152px] bg-gradient-to-b from-[#F6F6F6] to-[#DFC6FF] flex flex-col justify-center items-center">
+    <div className="w-full pt-[152px] pb-[113px] bg-gradient-to-b from-[#F6F6F6] to-[#DFC6FF] flex flex-col justify-center items-center">
       <div className="w-full text-[32px] md:text-[56px] lg:text-[64px] font-[700] text-center">
         <p className="text-black leading-[136%] traking-[-0.96px]">
           운전자를 위한
