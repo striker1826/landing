@@ -16,7 +16,7 @@ const FooterParagraph = ({
   return (
     <p
       onClick={onClick}
-      className="text-[#7e7e7e] text-[14px] leading-[128%] tracking-[-0.42px]"
+      className="text-[#7e7e7e] cursor-pointer text-[14px] leading-[128%] tracking-[-0.42px]"
       style={{ fontSize, fontWeight }}
     >
       {text}
